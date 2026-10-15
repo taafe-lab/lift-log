@@ -18,6 +18,10 @@ Settings, **Save a backup**, then **Save to Files** and pick iCloud Drive. Do it
 
 Put the app on the new phone as above, then Settings, **Restore from a backup**, and pick the newest backup file.
 
-## Updating the app
+## Changes and updates
 
-Upload the new `index.html` and `sw.js` over the old ones (**Add file**, **Upload files**, **Commit changes**). The next time you open the app with signal it says a new version is ready; tap **Reload**. Your logged workouts are not touched.
+Small changes to your programme (sets, exercises, rest times, notes) you make yourself in the app with **Edit** on any workout.
+
+For changes to the app itself, ask Claude in your Workout Log project. You'll see screenshots first, and it's only published here once you say yes. The next time you open the app with signal it says a new version is ready; tap **Reload**. Your logged workouts are not touched.
+
+The `source` folder holds the code the app is built from, and `CLAUDE.md` holds the full technical notes.
